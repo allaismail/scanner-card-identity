@@ -1,0 +1,10 @@
+create database projet;
+use database projet;
+create table carte(
+id int primary key not null;
+cin varchar(20);
+nom varchar(20) ;
+prenom varchar(20);
+date varchar(15);
+adresse varchar(15);
+image varchar(255));
